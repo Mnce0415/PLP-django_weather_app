@@ -1,0 +1,81 @@
+/* style.css */
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(to right, #74ebd5, #acb6e5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+form {
+    background: white;
+    padding: 20px 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+input[type="text"] {
+    padding: 10px;
+    width: 200px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    margin-right: 10px;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.weather-info {
+    margin-top: 20px;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 12px;
+    text-align: center;
+}
+
+/* CSS for Dynamic Backgrounds */
+body.clear {
+    background: linear-gradient(to right, #f0f0f0, #ff7e5f); /* Clear sky */
+}
+
+body.rain {
+    background: linear-gradient(to right, #434343, #000000); /* Rainy */
+}
+
+body.clouds {
+    background: linear-gradient(to right, #b7c4cf, #57667e); /* Cloudy */
+}
+
+body.snow {
+    background: linear-gradient(to right, #cce7ff, #99c2ff); /* Snowy */
+}
+
+/* Error Message Styling */
+.alert {
+    background-color: #f8d7da;
+    color: #721c24;
+    padding: 10px;
+    margin: 20px 0;
+    border-radius: 5px;
+    border: 1px solid #f5c6cb;
+}
+
